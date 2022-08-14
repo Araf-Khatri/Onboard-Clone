@@ -1,0 +1,202 @@
+@media (max-width: 66.6em) {
+
+  .snap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .main-descrip {
+    margin-bottom: 4rem;
+  }
+
+  .figma-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .figma-img img {
+    max-height: 26rem;
+  }
+
+  .searching {
+    display: none;
+  }
+
+  .nav-bar {
+    display: grid;
+  }
+
+  .nav-flex {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .nav-flex-none {
+    display: none;
+  }
+
+  .nav-flex-default {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 59.8em) {
+  .figma-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .snap-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    align-items: center;
+    justify-items: center;
+  }
+
+   .image-background {
+    grid-row: 1;
+  }
+
+  .toolkit-grid {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 9rem;
+  }
+
+  .layout {
+    max-width: 38rem;
+    width: 100%;
+  }
+
+  .comments {
+    grid-template-columns: 1fr;
+    gap: 9rem;
+  }
+
+}
+
+@media (max-width: 48em) {
+
+  .main-pg {
+    padding: 0 20px;
+  }
+  
+  html {
+    font-size: 50%;
+  }
+
+  
+  .heading {
+    margin-bottom: 2.8rem;
+    font-size: 4.2rem;
+  }
+  .ele1 {
+    font-size: 5.2rem;
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+
+  }
+
+  .footer-grid {
+    gap: 45px;
+  }
+
+  .figma-icon-flex {
+    width: 25.7rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .main-para {
+    margin-right: 20%;
+  }
+
+  .main-descrip {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 34em) {
+  .main-para {
+    margin-right: 10%;
+  }
+
+  .head-btn-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .figma-img img {
+    max-height: 24rem;
+  }
+}
+
+
+
+@media (max-width: 30em) {
+  .tour-box {
+    padding: 3rem;
+  }
+  .mini {
+    height: 210px;
+  }
+
+  .main-descrip {
+    margin-top: 20px;
+    gap: 3px;
+  }
+
+  .main-para {
+    margin-right: 10%;
+  }
+
+  .tour-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+
+    row-gap: 50px;
+  }
+
+  .vip {
+    grid-column: 2;
+  }
+
+  .template {
+    grid-row: 2;
+  }
+
+  .flex-end {
+    gap: 20px;
+  }
+
+  .figma-icon-flex{
+    padding: 9px 14px;
+    width: 20.7rem;
+  }
+  
+  .ffc {
+    font-size: 1.3rem;
+
+  }
+
+}
+
