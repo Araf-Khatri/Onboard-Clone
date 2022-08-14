@@ -5,5 +5,4 @@ Used **Flexbox**, **CSS-Grid** and added some **media queries** to make website 
 
 [My Clone website Link]
 
-
 [Original website Link](https://onboard-template.webflow.io/)
